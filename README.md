@@ -10,7 +10,7 @@ A set of 9 Stream practice problems. *This challange is not graded, but is inten
 
 2. In `StreamTest.java` you'll notice that in lines `24` - `42`There are a few objects created along with an ArrayList.  **Your challenge is to perform operations using the `Stream` API**.
 
-3. Each question asks you to fetch and/or transform a particular object in the source collection, an ArrayList called `students`. (:exclamation: Remember that operations on a stream produce a **result**, but **do NOT modify its underlying data source**). 
+3. Each question asks you to fetch and/or transform a particular object in the source collection, an ArrayList called `students`. (:exclamation: Remember that operations on a stream produce a **result**, but **do NOT modify its underlying data structure**). 
 
 4. In each question 1-9, perform a series of stream operations on the `students` list and print the result to the console.
 
