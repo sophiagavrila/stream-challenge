@@ -10,15 +10,14 @@ A set of 9 Stream practice problems. *This challange is not graded, but is inten
 
 2. In `StreamTest.java` you'll notice that in lines `24` - `42`There are a few objects created along with an ArrayList.  **Your challenge is to perform operations using the `Stream` API**.
 
-3. Each question asks you to fetch and/or transform a particular object in the source collection, an ArrayList called `students`. (:exclamation: Remember that operations on a stream produce a **result**, but **do NOT modify its underlying data source**). In each question 1-9, perform a series of stream operations on the `students` list and print the result to the console.
+3. Each question asks you to fetch and/or transform a particular object in the source collection, an ArrayList called `students`. (:exclamation: Remember that operations on a stream produce a **result**, but **do NOT modify its underlying data source**). 
+
+4. In each question 1-9, perform a series of stream operations on the `students` list and print the result to the console.
 
   > Only modify the `StreamTest.java` file!
 
 <br>
 
-:star: The solutions are in a separate package called `com.revature.solution`, for your reference.  If you get stuck, take a glance at the solution, but this exercise is mainly designed so that you spend time studying the different methods availble within `java.util.stream;`
-
-<br>
 
 ## Resources :mag:
 *There are a few resources within the challange.  Here are some more to assist you in learning Streams*:
