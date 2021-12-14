@@ -47,7 +47,9 @@ public class StreamTest {
         
         /***************************************************************************
          (1) Get the student with the name "Bob" and print his name to the console.
-         	 If "Bob" does not exist, print "No student found".
+             If "Bob" does not exist, print "No student found".
+     	     HINT: Store students.stream()...etc to an Optional<Student> in the case that the student
+             doesn't exist. Resource: https://www.geeksforgeeks.org/java-8-optional-class/
         ****************************************************************************/
 
         
@@ -59,7 +61,7 @@ public class StreamTest {
         /***************************************************************************
          (2) Get the student with matching address "1235" and print their name to the console.
              If the address does not exist, print "No student found".
-             HINT: Save students.stream()...etc to an Optional<Student> in the case that the student
+             HINT: Store students.stream()...etc to an Optional<Student> in the case that the student
              doesn't exist. Resource: https://www.geeksforgeeks.org/java-8-optional-class/
         ****************************************************************************/
 
@@ -95,7 +97,7 @@ public class StreamTest {
         
         
         /***************************************************************************
-	     (5) Create a List<Student> from the List<TempStudent>. Call it studentList.
+	     (5) Create a List<Student> from the tmpStudents List. Call it studentList.
 	         Hint: Use Collectors.toList(). Print it to the console. 
 	         Resource: https://www.geeksforgeeks.org/collectors-tolist-method-in-java-with-examples/
         ****************************************************************************/
